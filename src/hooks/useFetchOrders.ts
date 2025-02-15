@@ -13,7 +13,7 @@ const useFetchOrders = () => {
         const response = await axios.get<{ orders: Order[] }>(
           "https://raw.githubusercontent.com/ahmedfaroUk1oo/refund-api/refs/heads/main/db.json"
         );
-        const data = response.data.orders; // الوصول إلى الـ orders داخل الـ object
+        const data = response.data.orders; 
         setOrders(data);
       } catch (err) {
         setError("Failed to fetch orders");

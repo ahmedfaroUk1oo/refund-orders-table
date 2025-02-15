@@ -21,11 +21,11 @@ const Dashboard: React.FC = () => {
   };
 
   const handleViewDetails = (order: Order) => {
-    setSelectedOrder(order); // حفظ المنتج المحدد
+    setSelectedOrder(order); 
   };
 
   const closePopup = () => {
-    setSelectedOrder(null); // إغلاق الـ Popup
+    setSelectedOrder(null); 
   };
 
   if (loading) return <Loader />;

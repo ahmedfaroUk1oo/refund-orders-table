@@ -23,11 +23,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
             Orders
           </a>
         </li>
-        <li className="mb-2">
-          <a href="#" className="hover:text-gray-400">
-            Settings
-          </a>
-        </li>
+       
       </ul>
     </div>
   );
